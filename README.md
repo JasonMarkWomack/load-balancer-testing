@@ -11,7 +11,6 @@ To integrate your custom load balancing logic into the Envoy source code and com
 
 2 ) Register Your Custom Load Balancer:
 Within your custom load balancer file, register your load balancer factory using REGISTER_FACTORY.
-Ensure that your custom load balancer has a unique name that you'll use in your Envoy configuration.
 
 3 ) Update the BUILD files to include your custom load balancer file in the compilation process.
 You may need to modify other configuration files (e.g., WORKSPACE, BUILD.bazel, or BUILD) as per your build system (Bazel or CMake).
