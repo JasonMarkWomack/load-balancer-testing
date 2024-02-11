@@ -5,7 +5,7 @@ This repository contains configurations, directions, and instructions for deploy
 
 ## Sugestions / Directions
 
-To integrate your custom load balancing logic into the Envoy source code and compile it with your changes, you'll need to  these general steps:
+To integrate your custom load balancing logic into the Envoy source code and compile it with your code, you'll need to  these  steps:
 
 1 ) Use the new C++ file I made (e.g custom_load_balancer.cc) in the right directory within the Envoy source tree ( source/extensions/load_balancers).Will need to tweak it to your specfic needs.
 
