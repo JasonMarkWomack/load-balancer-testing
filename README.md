@@ -1,4 +1,4 @@
-# Envoy Proxy Deployment on Kubernetes  with a custom load balacing custom filter
+# Envoy Proxy Deployment on Kubernetes  with a custom load balacing filter
 
 This repository contains configurations, directions, and instructions for deploying Envoy Load balancing Proxy on Kubernetes with a filter
 
